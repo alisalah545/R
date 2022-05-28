@@ -8,6 +8,6 @@ WORKDIR /root/jmthon
 # Install requirements
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+ENV PATH="/home/jmthon/bin:$PATH"
 
 CMD ["python3","-m","jmthon"]
