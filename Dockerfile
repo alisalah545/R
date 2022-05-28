@@ -1,4 +1,4 @@
-FROM jmthonar/userbot:slim-buster
+FROM jmthonar/jmthon:slim-buster
 
 #clonning repo 
 RUN git clone https://github.com/jmthonar/jmthon.git /root/jmthon
